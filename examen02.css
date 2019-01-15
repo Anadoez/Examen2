@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*Desarrollado por Diana*/
+/*
+body:sans-serif
+título:cursiva
+*/
+/* Estilos generales*/
+body{
+    font-family: sans-serif;
+    background-color: lightyellow;
+}
+h1{
+    font-family: cursive;
+    background-color: orange;
+    color:white;
+    text-shadow: 4px 4px red;
+    text-align: center;
+    text-transform: uppercase;
+    padding:1%;
+    margin:0;
+}
+/* Barra de navegación*/
+nav{
+    border: 5px solid red;
+    padding:0.25%;
+    background-color: yellow;
+}
+nav ol{
+    list-style-type: none;
+}
+ol li{
+    display:inline;
+    margin-right: 10%;
+}
+nav a{
+    color:orange;
+    text-decoration:none;    
+}
+/* Estilo párrafos*/
+p{
+    padding:10%;
+}
+.sub{
+    text-decoration:underline;
+}
+p:hover{
+    z-index: 2;
+}
+/*Párrafo1*/
+.estilo1{
+    color:red;
+    background:url("img/naranja.png") left repeat-y , orange url("img/naranja.png") right repeat-y;
+    background-size: 30% 25%;
+    width:40%;
+    height: 30%;;
+    position:absolute;
+    top:50%;
+    left:30%;
+    z-index:1;
+    border:2px solid red;
+}
+/*Parrafo2*/
+.estilo2{
+
+}
+/*Parrafo3*/
+.estilo3{
+
+}
+
+
+
+
+
+
