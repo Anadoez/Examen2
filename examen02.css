@@ -19,6 +19,9 @@ h1{
     padding:1%;
     margin:0;
 }
+main{
+    background: url("img/naranja2.svg") top repeat-x 5% 5%, url("img/naranja2.svg") bottom repeat-x 10% 10%;
+}
 /* Barra de navegación*/
 nav{
     border: 5px solid red;
@@ -28,7 +31,7 @@ nav{
 nav ol{
     list-style-type: none;
 }
-ol li{
+nav ol li{
     display:inline;
     margin-right: 10%;
 }
@@ -38,7 +41,7 @@ nav a{
 }
 /* Estilo párrafos*/
 p{
-    padding:10%;
+    padding:5%;
 }
 .sub{
     text-decoration:underline;
@@ -51,21 +54,62 @@ p:hover{
     color:red;
     background:url("img/naranja.png") left repeat-y , orange url("img/naranja.png") right repeat-y;
     background-size: 30% 25%;
-    width:40%;
-    height: 30%;;
+    width:30%;
+    height: 20%;
     position:absolute;
-    top:50%;
+    top:20%;
     left:30%;
     z-index:1;
     border:2px solid red;
 }
 /*Parrafo2*/
 .estilo2{
-
+    color:chocolate;
+    background-color: wheat;
+    border:2px solid lightgreen;
+    width:30%;
+    height: 20%;
+    position:absolute;
+    bottom:15%;
+    left:5%;
 }
 /*Parrafo3*/
 .estilo3{
+    width:30%;
+    height: 20%;
+    background-color:lightblue;
+    color:orange;
+    border: 2px solid steelblue;
+    position:absolute;
+    bottom:15%;
+    right:5%;
 
+}
+/*Footer*/
+footer{
+    position:absolute;
+    bottom:0;
+    height: 10%;
+    width: 100%;
+    background-color: orange;
+}
+footer li{
+    list-style-type: upper-roman;
+    background-color: orange;
+    color:blue;
+    position:absolute;
+    bottom
+}
+footer p{
+    
+    color:blue;
+    padding:0.25%;
+    margin:0;
+}
+footer small{
+    color:orange;
+    background-color: wheat;
+   text-align: center;
 }
 
 
