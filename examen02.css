@@ -20,7 +20,7 @@ h1{
     margin:0;
 }
 main{
-    background: url("img/naranja2.svg") top left repeat-x,url("img/naranja2.svg") bottom left repeat-x ;
+    background: url("img/naranja2.svg") top repeat-x,url("img/naranja2.svg") bottom  repeat-x ;
     background-size:10px 10px;
     height: 70%;
 }
